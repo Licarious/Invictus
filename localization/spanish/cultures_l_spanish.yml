@@ -6,7 +6,7 @@
  aryan:1 "Ario"
  north_african:2 "Egipcio"
  persia:0 "Iranio"
- scythia:0 "Escita"
+ scythia:0 "Saca"
  south_levantine:0 "Arábigo"
  tibetan:0 "Tibetano"
  celt_iberia:0 "Celtíbero"
@@ -27,6 +27,7 @@
  pracyan:0 "Pracyo"
  nilotic_group:0 "Nilótico"
  fezzani:0 "Fezano"
+ scythian_east:0 "Escita"
  #Aryan
  vidharban:0 "Vidharba"
  saurashtran:0 "Saurastra"
@@ -376,6 +377,13 @@
  phazani:0 "Phazania"
  lotophagoi:0 "Lotófaga"
  gyzantian:0 "Guzante"
+ #New Atlas + Mauretania
+ lixitoi:0 "Lixita"
+ autolalean:0 "Autolata"
+ canarian:0 "Canaria"
+ perorsian:0 "Perorsia"
+ nectiberean:0 "Nectiberia
+ daphnitaean:0 "Daphnita"
  #Naming
  aryan_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  aryan_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
