@@ -5978,33 +5978,33 @@ country = {
 			}
 		
 			own_control_core = 	{
-				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3507 3515 3514 3513 3516
+				14 17 21 22 102 120 124 131 130 136 135 134 126 114 127 112 113 115 116 125 129 128 137 3515 3514 138 139 140
 			}
 			
 			treasures = { 40 }
 		}
 		
 		#Friniati
-		FNT = {
-			government = tribal_kingdom
-			primary_culture = ligurian
-			religion = roman_pantheon
-			centralization=8
-			capital = 138 
-			diplomatic_stance=trading_stance
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-		
-			own_control_core = 	{
-				138 139 140
-			}
-			
-		}
+		#FNT = {
+		#	government = tribal_kingdom
+		#	primary_culture = ligurian
+		#	religion = roman_pantheon
+		#	centralization=8
+		#	capital = 138 
+		#	diplomatic_stance=trading_stance
+		#	
+		#	technology={
+		#		military_tech={ level=2 progress=0 }
+		#		civic_tech={ level=2 progress=0 }
+		#		oratory_tech={ level=2 progress=0 }
+		#		religious_tech= { level=2 progress=0  }
+		#	}
+		#
+		#	own_control_core = 	{
+		#		138 139 140
+		#	}
+		#	
+		#}
 		
 		SAB = {
 			government = tribal_kingdom
@@ -17244,6 +17244,55 @@ country = {
 
 			own_control_core = {
 				8050 5908 5909 5877 5905 6221 5904 6218 6225 6228
+			}
+		}
+		#Belatoni
+		BEL = {
+			government = tribal_kingdom
+			primary_culture = corsian
+			religion = carthaginian_pantheon
+
+			pantheon = {
+				{ deity = 430 }
+				{ deity = 401 } 
+				{ deity = 432 } 
+				{ deity = 431 }
+			}
+
+			centralization = 50
+
+			capital = 3508
+
+			own_control_core = {
+				3508 3507 3509
+			}
+		}
+		#Cilebensi
+		CIL = {
+			government = tribal_kingdom
+			primary_culture = corsian
+			religion = druidism
+
+			centralization = 50
+
+			capital = 3513
+
+			own_control_core = {
+				3513 3516 3512
+			}
+		}
+		#Sumbri
+		SUM = {
+			government = tribal_kingdom
+			primary_culture = corsian
+			religion = druidism
+
+			centralization = 50
+
+			capital = 3511
+
+			own_control_core = {
+				3511 3510
 			}
 		}
 		

@@ -135,7 +135,7 @@
 	civilization_value=26
 	culture="etruscan"
 	holy_site="omen_apulu"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="plains"
 	trade_goods="hemp"
@@ -352,10 +352,10 @@
 	barbarian_power=0
 	civilization_value=26
 	culture="etruscan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="plains"
-	trade_goods="olive"
+	trade_goods="honey"
 	citizen=
 	{
 		amount=5
@@ -1024,7 +1024,7 @@
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="hills"
-	trade_goods="honey"
+	trade_goods="grain"
 	citizen=
 	{
 		amount=3
@@ -1079,7 +1079,7 @@
 	barbarian_power=0
 	civilization_value=26
 	culture="etruscan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="plains"
 	trade_goods="earthware"
@@ -1109,7 +1109,7 @@
 	province_rank="city"
 	religion="roman_pantheon"
 	terrain="farmland"
-	trade_goods="horses"
+	trade_goods="precious_metals"
 	citizen=
 	{
 		amount=3
@@ -1219,7 +1219,7 @@
 	barbarian_power=0
 	civilization_value=24
 	culture="umbrian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="hills"
 	trade_goods="cattle"
@@ -1357,7 +1357,7 @@
 	province_rank="city"
 	religion="roman_pantheon"
 	terrain="hills"
-	trade_goods="fur"
+	trade_goods="gems"
 	nobles=
 	{
 		amount=1
@@ -1388,7 +1388,7 @@
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="farmland"
-	trade_goods="marble"
+	trade_goods="olive"
 	citizen=
 	{
 		amount=5
@@ -1474,7 +1474,7 @@
 	province_rank="settlement"
 	religion="roman_pantheon"
 	terrain="plains"
-	trade_goods="base_metals"
+	trade_goods="fish"
 	citizen=
 	{
 		amount=4
@@ -1498,7 +1498,7 @@
 	barbarian_power=0
 	civilization_value=26
 	culture="etruscan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="plains"
 	trade_goods="marble"
@@ -1553,10 +1553,10 @@
 	civilization_value=24
 	culture="etruscan"
 	holy_site="omen_tinia"
-	province_rank="settlement"
+	province_rank="city"
 	religion="roman_pantheon"
 	terrain="hills"
-	trade_goods="olive"
+	trade_goods="precious_metals"
 	citizen=
 	{
 		amount=2
@@ -2739,12 +2739,18 @@
 	}
 	freemen=
 	{
-		amount=3
+		amount=2
+		culture="epirote"
 	}
 	freemen=
 	{
-		amount=3
+		amount=2
 		culture="massalian"
+	}
+	freemen=
+	{
+		amount=2
+		culture="carthaginian"
 	}
 	slaves=
 	{

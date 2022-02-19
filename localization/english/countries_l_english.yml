@@ -2368,3 +2368,10 @@
 
  form_achaean_league_claims_tooltip:0 "We will gain claims the provinces of #Y Achaea#! and #Y Arcadia#!."
  
+# Corsica little nations
+BEL:0 "Belatoni"
+BEL_ADJ:0 "Belatonian"
+CIL:0 "Cilebensi"
+CIL_ADJ:0 "Cilebensian"
+SUM:0 "Sumbri"
+SUM_ADJ:0 "Sumbrian"

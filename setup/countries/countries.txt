@@ -784,3 +784,8 @@ GAE = "setup/countries/africa/gaetulia.txt"
 #Seleukid Satraps
 GED = "setup/countries/bactria/gedrosia.txt"
 PES = "setup/countries/caucasiamesopotamia/persis.txt"
+
+# New Etruria
+BEL = "setup/countries/italia/belatoni.txt"
+CIL = "setup/countries/italia/cilebensi.txt"
+SUM = "setup/countries/italia/sumbri.txt"
