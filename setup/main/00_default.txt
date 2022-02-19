@@ -5960,7 +5960,7 @@ country = {
 		
 		#Etruscans
 		ETR = {
-			government = oligarchic_republic
+			government = league_government
 			primary_culture = etruscan
 			religion = roman_pantheon
 			diplomatic_stance=trading_stance

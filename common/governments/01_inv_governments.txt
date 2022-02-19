@@ -532,3 +532,32 @@ rhodian_dictatorship = {
 	
 	color = hsv { 0  0.8  0.8 }
 }
+
+league_government = { #League Government
+	civic_ideas = 2
+	religious_ideas = 1
+	type = republic
+	
+	bonus = {
+		global_unrest = -1
+		global_citizen_output = 0.05
+		global_population_happiness = 0.08
+	}
+	
+	base = {
+		country_civilization_value = 25
+		governor_loyalty = -10
+		general_loyalty = -10
+		monthly_tyranny = -0.03
+	}
+	
+	minimum_electable_age = 35
+	election_delay = 10
+	ruler_term = 5
+	
+	has_co_ruler = no
+	
+	color = hsv { 0.6425 0.6807 0.6510 }
+	
+	can_deify_ruler = no
+}

@@ -65,4 +65,10 @@
  rhodian_dictatorship_ruler:0 "Tyrant"
  rhodian_dictatorship_ruler_female:0 "Tyrant"
  rhodian_dictatorship_consort:0 "$title_consort$"
+
+ league_government:0 "League Government"
+ league_government_desc:0 "Description"
+ league_government_ruler:0 "Archon"
+ league_government_ruler_female:0 "Archon"
+ league_government_consort:0 "$title_consort$"
  
