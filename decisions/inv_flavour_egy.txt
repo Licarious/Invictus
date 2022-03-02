@@ -2,7 +2,7 @@
 #### Hippocrates' Kosan Asylum Decision
 
 country_decisions = {
-	kosan_asylum = {
+	kosan_asylum ={
 
 		potential = {
 			tag = EGY
@@ -13,6 +13,9 @@ country_decisions = {
 				is_subject_of = root
 				owns = 1970
 				}
+			}
+			not = {
+				has_variable = kosan_asylum_decision_complete
 			}
 		}
 
@@ -89,15 +92,15 @@ country_decisions = {
 					name = asylum_of_hippocrates
 				}
 			}
-			#trigger_event = {
-            #    id = me_tamil_king.14
-			#	days = { 60 100 }
-            #    }   
+			set_variable = kosan_asylum_decision_complete
+			trigger_event = {
+                id = egy_kosan_asylum.1
+				days =  60 
+            }   
 		}
 
 		ai_will_do = {
 			base = 0
-			}
-		}	
-	}
+		}
+	}	
 }

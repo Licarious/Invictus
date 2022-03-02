@@ -2119,7 +2119,7 @@ heritage_of_persis = {
 }
 
 #Kaounos
-Kaunos_heritage = {
+kaunos_heritage = {
 	modifier = {
 		#good
 		global_citizen_happyness = 0.06
@@ -2133,7 +2133,7 @@ Kaunos_heritage = {
 	}
 }
 
-Physkos_heritage = {
+physkos_heritage = {
 	modifier = {
 		#good
 		fort_limit = 2.0
@@ -2144,6 +2144,20 @@ Physkos_heritage = {
 
 	trigger = {
 		tag = PYK
+	}
+}
+### Event-created country heritage
+astypalaian_heritage = { # Heritage of Onesicritos
+	modifier = {
+		#good
+		research_points_modifier = 0.05
+		fabricate_claim_cost_modifier = -0.5
+		#bad
+		monthly_wage_modifier = 0.1
+	}
+
+	trigger = {
+		tag = ATY
 	}
 }
 

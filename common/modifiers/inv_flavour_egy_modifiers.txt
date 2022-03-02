@@ -1,7 +1,7 @@
 ﻿
 
 ##################################################################################################
-# Egypt Decision & Event Modifiers
+# Egypt Decision & Event Modifiers & Other Oddities
 ##################################################################################################
 
 global_asylum = {
@@ -14,11 +14,45 @@ global_asylum = {
 	
 asylum_of_hippocrates = {
 	local_migration_attraction = 3
-	locla_commerce_value_modifier = 0.1
+	local_commerce_value_modifier = 0.1
 	local_pop_conversion_speed = 1
 	local_population_happiness = 0.08
 	local_population_growth = -0.02
 	local_monthly_food_modifier = -0.05
 }
+#The Cost of Asylum Event Modifiers
+secondary_refugee_center = {
+	local_migration_attraction = 2
+	local_pop_conversion_speed = 0.5
+	local_population_happiness = -0.03
+	local_population_growth = -0.05
+}
 	
+establish_apollo_halisarna = {
+	local_population_happiness = 0.02
+	local_pop_conversion_speed = 0.1
+	local_nobles_desired_pop_ratio = 0.1
+}
+
+uncontrollable_immigration = {
+	local_unrest = 0.02
+	local_population_happiness = -0.1
+}
+
+#The Cynic of Astypalaia Event Modifiers
+managed_refugee_center = {
+	local_migration_attraction = 1
+	local_pop_conversion_speed = 1
+	local_population_happiness = 0.02
+	local_population_growth = -0.02
+}
+
+#The Cynical Alexander Event Modifiers
+emerging_successor = {
+	global_population_happiness = 0.05
+	war_score_cost = -0.1
+	war_exhaustion = -0.1
+	manpower_recovery_speed = 0.1
+	character_loyalty = 5
+}
 	
