@@ -433,8 +433,8 @@ type = country_event
 					name = ASTYPALAIA_NAME
 					adjective = ASTYPALAIA_ADJECTIVE
 				}
-				change_country_flag = KUSH_CLIENT_C_FLAG   ### hoping for custom flag and associated color
-				change_country_color = achaemenid_mauve	   ### same as above
+				change_country_flag = ASTYPALAIA_FLAG   
+				change_country_color = rgb { 1  61  50 } 
 				set_country_religion = roman_pantheon
 				change_government = aristocratic_monarchy
 				set_country_heritage = astypalaian_heritage
@@ -484,8 +484,8 @@ type = country_event
 					name = ASTYPALAIA_NAME
 					adjective = ASTYPALAIA_ADJECTIVE
 				}
-				change_country_flag = KUSH_CLIENT_C_FLAG   ### hoping for custom flag and associated color
-				change_country_color = achaemenid_mauve	   ### same as above
+				change_country_flag = ASTYPALAIA_FLAG   
+				change_country_color = rgb { 1  61  50 }	
 				set_country_religion = roman_pantheon
 				change_government = aristocratic_monarchy
 				set_country_heritage = astypalaian_heritage
